@@ -1,14 +1,22 @@
 # DOM Intro Exercise: Daily Planet Date
 
+You work for the Daily Planet, an astrology site that recently gained popularity after being featured in a TikTok influencer's morning routine. This influx of traffic has inspired your team to expedite some UX updates that have been sitting on the kanban board for awhile.
+
+Currently, the subheading of the site displays the company's location.
+
+![NEW YORK, NY - SUNDAY, MAY 4, 3000](example1.png)
+
+You've been tasked with the job of updating the codebase so the current date automatically displays on page load in the subheading.
+
+![NEW YORK, NY - SUNDAY, MAY 4, 3000](example2.png)
+
+## Deliverable: Today's Date
+
 [Lesson Notes](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/04-dom/4.1-dom-intro.md) | [Starter Code Live]( https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-exercise/) | [Solution Code Demo](https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-solution/)
 
 (This repo holds the starter code.)
 
-## Deliverable: Today's Date
-
 _Use Javascript to add a hyphen and today's date to the subheading (in all caps)._
-
-![NEW YORK, NY - SUNDAY, MAY 4, 3000](example.png)
 
 _**Do not hardcode the date!** Instead, use the [javascript Date object and it's methods](https://www.w3schools.com/jsref/jsref_obj_date.asp) to render the current date. This way it updates automatically on page load. (Otherwise you'd have to manually update it each day.)_
 
