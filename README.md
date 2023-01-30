@@ -2,6 +2,8 @@
 
 [Lesson Notes](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/04-dom/4.1-dom-intro.md) | [Starter Code Live]( https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-exercise/) | [Solution Code Demo](https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-solution/)
 
+(This repo holds the starter code.)
+
 ## Deliverable: Today's Date
 
 _Use Javascript to add a hyphen and today's date to the subheading (in all caps)._
@@ -10,6 +12,16 @@ _Use Javascript to add a hyphen and today's date to the subheading (in all caps)
 
 _**Do not hardcode the date!** Instead, use the [javascript Date object and it's methods](https://www.w3schools.com/jsref/jsref_obj_date.asp) to render the current date. This way it updates automatically on page load. (Otherwise you'd have to manually update it each day.)_
 
+<details>
+    <summary>Step 0</summary>
+    If you haven't noticed yet - the javascript isn't linked to the html yet! Throw a <code>script</code> tag at the bottom of the body or use the <code>defer</code> attribute and put it in the <code>head</code>. Make sure it goes below the font awesome <code>script</code> tag that is already present in the <code>head</code>.
+</details>
+<details>
+    <summary>Code</summary>
+    <code>    
+        <script src="script.js" defer></script>
+    </code>
+</details>
 <details><summary>Step 1</summary>
     Get today's date and store it in a variable
 </details>
