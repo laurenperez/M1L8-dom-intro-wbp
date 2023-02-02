@@ -16,6 +16,7 @@ You've been tasked with the job of updating the codebase so the current date aut
 
 (This repo holds the starter code.)
 
+## Requirements
 _Use Javascript to add a hyphen and today's date to the subheading (in all caps)._
 
 _**Do not hardcode the date!** Instead, use the [javascript Date object and it's methods](https://www.w3schools.com/jsref/jsref_obj_date.asp) to render the current date. This way it updates automatically on page load. (Otherwise you'd have to manually update it each day.)_
