@@ -21,6 +21,8 @@ _Use Javascript to add a hyphen and today's date to the subheading (in all caps)
 
 _**Do not hardcode the date!** Instead, use the [javascript Date object and it's methods](https://www.w3schools.com/jsref/jsref_obj_date.asp) to render the current date. This way it updates automatically on page load. (Otherwise you'd have to manually update it each day.)_
 
+## Steps
+
 <details>
     <summary>Step 0</summary>
     If you haven't noticed yet - the javascript isn't linked to the html yet! Throw a <code>script</code> tag at the bottom of the body or use the <code>defer</code> attribute and put it in the <code>head</code>. Make sure it goes below the font awesome <code>script</code> tag that is already present in the <code>head</code>.
