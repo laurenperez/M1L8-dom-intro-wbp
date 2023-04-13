@@ -14,7 +14,7 @@ You've been tasked with the job of updating the codebase so the current date aut
 
 [Lesson Notes](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/04-dom/4.1-dom-intro.md) | [Starter Code Live]( https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-exercise/) | [Solution Code Demo](https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-solution/)
 
-(This repo holds the starter code.)
+([This](https://git.generalassemb.ly/SEI-Standard-Curriculum/M1L8-dom-intro-wbp) repo holds the starter code.)
 
 ## Requirements
 _Use Javascript to add a hyphen and today's date to the subheading (in all caps)._
