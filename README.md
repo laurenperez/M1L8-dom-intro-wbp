@@ -14,19 +14,24 @@ You've been tasked with the job of updating the codebase so the current date aut
 ![Requirements](./assets/banner-requirements.png)
 ## Deliverable: Today's Date
 
-[Starter Code Live]( https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-exercise/) | [Solution Code Demo](https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-solution/)
+[Starter Code Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/M1L8-dom-intro-wbp) | [Starter Code Live]( https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-exercise/) | [Solution Code Demo](https://pages.git.generalassemb.ly/taylor-darneille/dom-intro-solution/)
 
-([This](https://git.generalassemb.ly/SEI-Standard-Curriculum/M1L8-dom-intro-wbp) repo holds the starter code.)
+1. Connect the JavaScript file to the HTML file.
+
+1. Use the [javascript Date object and it's methods](https://www.w3schools.com/jsref/jsref_obj_date.asp) to render the current date.
+
+    _**Do not hardcode the date!** This way it updates automatically on page load. (Otherwise you'd have to manually update it each day.)_
+
+1. Use string interpolation or concatenation to build the string you want to add to the subheading.
+    
+    _Use Javascript to add a hyphen and today's date to the subheading (in all caps)._
 
 
-_Use Javascript to add a hyphen and today's date to the subheading (in all caps)._
-
-_**Do not hardcode the date!** Instead, use the [javascript Date object and it's methods](https://www.w3schools.com/jsref/jsref_obj_date.asp) to render the current date. This way it updates automatically on page load. (Otherwise you'd have to manually update it each day.)_
 
 ---
 ![Tickets](./assets/banner-tickets.png)
 
-![Kanban Board]()
+![Kanban Board](./assets/kanban-jira-board-dom-intro.png)
 
 ---
 ![Coding Practice](./assets/banner-coding.png)
@@ -39,39 +44,22 @@ _**Do not hardcode the date!** Instead, use the [javascript Date object and it's
 
 ### Step 2
 
-Get today's date and store it in a variable
+Get today's date and store it in a variable, then begin to populate all of the elements of the date:
+- Use the [`getMonth()`](https://www.w3schools.com/jsref/jsref_getmonth.asp) method on the date to get a number for the month.
+- Create an array of all 12 months in order, starting with January. Use the `monthIndex` to pull the name of the current month from this array and store it in a variable.
 
 ### Step 3
 
-Use the [`getMonth()`](https://www.w3schools.com/jsref/jsref_getmonth.asp) method on the date to get a number for the month.
+Using the same process you did with the `getMonth()` method, create the follow methods to dynamically retrieve the entire date:
+- Use [`getDay()`](https://www.w3schools.com/jsref/jsref_getday.asp) to acquire the day of the week.
+- Use [`getDate()`](https://www.w3schools.com/jsref/jsref_getdate.asp) to acquire the date number.
+- Use [`getFullYear()`](https://www.w3schools.com/jsref/jsref_getfullyear.asp) to acquire the year number.
 
 ### Step 4
 
-Create an array of all 12 months in order, starting with January. Use the `monthIndex` to pull the name of the current month from this array and store it in a variable.
-
-### Step 5
-
-Repeat steps 2 & 3 using `getDay()` to acquire the day of the week.
-
-### Step 6
-
-Use`getDate()` to acquire the date number.
-
-### Step 6
-
-Use`getFullYear()` to acquire the year number.
-
-### Step 7
-
 Use string interpolation or concatenation to build the string you want to add to the subheading. Don't forget the hyphen, spaces, and commas!
-
-### Step 8
-
-Select the DOM element that holds the subheading and store it in a variable.
-
-### Step 9
-
-Use string concatenation to add your date string to the current `innerText` of the subheading. Make it uppercase!
+- Select the DOM element that holds the subheading and store it in a variable.
+- Use string concatenation to add your date string to the current `innerText` of the subheading. Make it uppercase!
 
 ---
 #### Inspiration
