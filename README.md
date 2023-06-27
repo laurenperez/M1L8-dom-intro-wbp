@@ -48,8 +48,11 @@ Get today's date and store it in a variable. Then:
 
 ### Step 3
 
-Using the same process you did with the `getMonth()` method, create the follow methods to dynamically retrieve the entire date:
+Using the same process you did with the `getMonth()` method, use the following methods to dynamically retrieve the day:
 - Use [`getDay()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay) to acquire the day of the week.
+    - Note: Not getting the correct date? Check the documentation on the return value a bit closer. 
+
+Next, use the follow methods to retrieve the date and year:
 - Use [`getDate()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate) to acquire the date number.
 - Use [`getFullYear()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear) to acquire the year number.
 
