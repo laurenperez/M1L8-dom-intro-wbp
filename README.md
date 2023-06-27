@@ -12,17 +12,14 @@ You've been tasked with the job of updating the codebase so the current date aut
 
 ---
 ![Requirements](./util/assets/banner-requirements.png)
-## Deliverable: Today's Date
-
-[Starter Code Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/M1L8-dom-intro-wbp)
 
 1. Connect the JavaScript file to the HTML file.
 
-1. Use the [javascript Date object and it's methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay) to render the current date.
+1. Use the [javascript Date object and it's methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) to render the current date.
 
     _**Do not hardcode the date!** This way it updates automatically on page load. (Otherwise you'd have to manually update it each day.)_
 
-1. Use string interpolation or concatenation to build the string you want to add to the subheading.
+1. Use string interpolation or concatenation to build a formatted date string, and add it to the subheading.
 
 
 ---
@@ -34,6 +31,13 @@ You've been tasked with the job of updating the codebase so the current date aut
 ![Coding Practice](./util/assets/banner-coding.png)
 
 ### Preparation Steps
+
+Please concentrate your efforts within the "src" folder, as it will serve as your designated working directory for this exercise. It is important to note that no changes need to be made to any files within the util folder in order to successfully complete the task.
+
+- Fork and clone [this](https://git.generalassemb.ly/SEI-Standard-Curriculum/M1L8-dom-intro-wbp)
+
+- cd into the directory
+
 
 ### Step 1
 
