@@ -41,8 +41,9 @@ You've been tasked with the job of updating the codebase so the current date aut
 
 ### Step 2
 
-Get today's date and store it in a variable, then begin to populate all of the elements of the date:
-- Use the [`getMonth()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth) method on the date to get a number for the month.
+Get today's date and store it in a variable. Then:
+- Use the [`getMonth()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth) method on the date to determine the current month. Store it's return value in a variable named `monthIndex`.
+    - Note: Why are we calling this variable `monthIndex` ? Check the expected output of `getMonth()` if this is confusing.
 - Create an array of all 12 months in order, starting with January. Use the `monthIndex` to pull the name of the current month from this array and store it in a variable.
 
 ### Step 3
