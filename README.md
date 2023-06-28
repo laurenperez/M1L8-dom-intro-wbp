@@ -38,6 +38,12 @@ You've been tasked with the job of updating the codebase so the current date aut
 
 ### Preparation Steps
 
+Please concentrate your efforts within the `src` folder, as it will serve as your designated working directory for this exercise. It is important to note that no changes need to be made to any files within the util folder in order to successfully complete the task.
+
+- Fork and clone [this repo] (https://git.generalassemb.ly/SEI-Standard-Curriculum/M1L8-dom-intro-wbp)
+
+
+
 ### Step 1
 
  If you haven't noticed already - the javascript isn't linked to the html yet! Throw a `script` tag at the bottom of the body or use the `defer` attribute and put it in the `head`. Make sure it goes below the font awesome `script` tag that is already present in the `head`.
@@ -62,6 +68,8 @@ Use string interpolation or concatenation to build the string you want to add to
 - Use string concatenation to add your date string to the current `innerText` of the subheading. Make it uppercase!
 
 ---
+Solution code is available in the `util` folder, should you find yourself stuck.
+
 #### Inspiration
 * [Drops of Jupiter](https://youtu.be/7Xf-Lesrkuc)
 * [forecmipsum](https://forcemipsum.com/)
